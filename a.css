@@ -1,0 +1,68 @@
+
+body {
+    background-color: #282c34;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.set {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 10px;
+    width: 100%; 
+}
+
+.drum {
+    border: 5px solid #404869;
+    font-size: 2rem;
+    font-weight: 900;
+    color: #da0463;
+    text-shadow: 2px 0 white;
+    border-radius: 15px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: white;
+    cursor: pointer;
+    max-width: 150px; 
+}
+.w{
+    background-image: url("https://media.discordapp.net/attachments/1113404400984129576/1280832096503599144/tom1.png?ex=66d98358&is=66d831d8&hm=8dbc30bb98ff9101c7d26c478791551f66a93c1b650fed6ca502cdd99cbda546&=&format=webp&quality=lossless&width=203&height=181");
+    background-size: cover;
+}
+.a{
+    background-image: url("https://media.discordapp.net/attachments/1113404400984129576/1280832096729960499/tom2.png?ex=66d98358&is=66d831d8&hm=dcf2f13d6114f4a3f201ed7ff45f4799c66f26683b7eec3637715e416e9a19af&=&format=webp&quality=lossless&width=190&height=251");
+    background-size: cover;
+}
+.s{
+    background-image: url("https://media.discordapp.net/attachments/1113404400984129576/1280832096729960499/tom2.png?ex=66d98358&is=66d831d8&hm=dcf2f13d6114f4a3f201ed7ff45f4799c66f26683b7eec3637715e416e9a19af&=&format=webp&quality=lossless&width=190&height=251");
+    background-size: cover;
+}
+.d{
+    background-image: url("https://media.discordapp.net/attachments/1113404400984129576/1280832097233408104/tom4.png?ex=66d98358&is=66d831d8&hm=12fbab4b21384e90863d83f8158143739b198d37ce53c1cfbc456244b0464969&=&format=webp&quality=lossless&width=207&height=187");
+    background-size: cover;
+}
+.j{
+    background-image: url("https://media.discordapp.net/attachments/1113404400984129576/1280832096289427468/snare.png?ex=66d98358&is=66d831d8&hm=11da1b99df97d09d3b612808c7bddd2f1c9d920833c961d003c576f2acf79374&=&format=webp&quality=lossless&width=166&height=228");
+    background-size: cover;
+}
+.k{
+    background-image: url("https://media.discordapp.net/attachments/1113404400984129576/1280832095974985869/crash.png?ex=66d98358&is=66d831d8&hm=b7a229c20891a715793454888ea1b76b3c94f804183035f40f7d05259fad9308&=&format=webp&quality=lossless&width=242&height=551");
+    background-size: cover;
+}
+.l{
+    background-image: url("https://media.discordapp.net/attachments/1113404400984129576/1280832097476673536/kick.png?ex=66d98358&is=66d831d8&hm=f7cff305fb209da754a5c46fef5a614c9ef845538e6880bc9311279d2937d23e&=&format=webp&quality=lossless&width=336&height=336");
+    background-size: cover;
+}
